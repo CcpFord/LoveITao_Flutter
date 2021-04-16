@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "309724776390",
+    "project_id": "loveitao-ff040",
+    "storage_bucket": "loveitao-ff040.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309724776390:android:f4ccf72cdc6c2557d154c7",
+        "android_client_info": {
+          "package_name": "com.example.quizapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309724776390-37bf4rpc3j66f2dfp1bafevu9crjf7qe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSY-z4ZpCyEawdUpeTmYKI-O98plagRrY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309724776390-37bf4rpc3j66f2dfp1bafevu9crjf7qe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
