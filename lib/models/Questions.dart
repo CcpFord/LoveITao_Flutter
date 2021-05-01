@@ -15,7 +15,7 @@ const List sample_data = [
       'I have just only you in my life, my life is beautiful.',
       'It is nothing serious.',
     ],
-    "answer_index": 2,
+    "answer_index": 1,
   },
   {
     "id": 2,
@@ -23,9 +23,9 @@ const List sample_data = [
     "options": [
       'Never spotted any',
       'Can deal with them',
-      'Yeah, I can manage as they do tolerate my flaws'
+      'Yeah, I can manage as they do tolerate my flaws',
     ],
-    "answer_index": 3,
+    "answer_index": 2,
   },
   {
     "id": 3,
@@ -35,7 +35,7 @@ const List sample_data = [
       'Keep calm for a minute. If I say anything, life may be unsafe.',
       'Walk away, I do not want to care about a stupid guy.'
     ],
-    "answer_index": 1,
+    "answer_index": 0,
   },
   {
     "id": 4,
@@ -45,17 +45,17 @@ const List sample_data = [
       'Invite him to have dinner, watch a movie.',
       'What you want to do today, I will indulge you everything.'
     ],
-    "answer_index": 3,
+    "answer_index": 2,
   },
   {
     "id": 5,
     "question": "What character of your lover can you not tolerate?",
     "options": ['Hot temper', 'Easy going', 'Possessiveness'],
-    "answer_index": 1,
+    "answer_index": 0,
   },
   {
     "id": 6,
-    "question": "How much you think about your partner?",
+    "question": "How much you think about your lover?",
     "options": [
       'Sometimes when I have nothing much to do',
       'Most of the time',
@@ -77,26 +77,26 @@ const List sample_data = [
     "id": 8,
     "question": "Something that puts you off?",
     "options": [
-      'Partner acting odd among friends and family',
-      'Your partner has found interest in someone else',
-      'Your partner is controlling you'
+      'Lover acting odd among friends and family',
+      'Your lover has found interest in someone else',
+      'Your lover is controlling you'
     ],
     "answer_index": 1,
   },
   {
     "id": 9,
-    "question": "What sort of a person are you?",
+    "question": "When the two of you are alone, you feel?",
     "options": [
-      'Planned ad meticulous',
-      'Moody and introvert',
-      'Social and open minded'
+      'Bored : I just feel like leaving as soon as possible',
+      'Attentive: Interested in making sure he or she is comfortable and entertained.',
+      'Relaxed: Without a care in the world.",'
     ],
     "answer_index": 1,
   },
   {
     "id": 10,
-    "question": "What sort of a person are you?",
+    "question": "Where would you like to be with your partner?",
     "options": ['Fancy dinner', 'Shopping complex', 'Beach'],
-    "answer_index": 1,
+    "answer_index": 2,
   },
 ];
