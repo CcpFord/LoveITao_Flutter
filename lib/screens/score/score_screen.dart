@@ -51,7 +51,7 @@ class ScoreScreen extends StatelessWidget {
                     ),
                   ],
                   if (_qnController.numOfCorrectAns * 10 < 70 &&
-                      _qnController.numOfCorrectAns * 10 > 30) ...[
+                      _qnController.numOfCorrectAns * 10 >= 50) ...[
                     Text(
                       'You are a good lover. If you are in a good mood, you are in a good mood but if the mood is not good, you can become a stubborn villain as well.',
                       style: Theme.of(context)
@@ -60,7 +60,7 @@ class ScoreScreen extends StatelessWidget {
                           .copyWith(color: kSecondaryColor),
                     ),
                   ],
-                  if (_qnController.numOfCorrectAns * 10 <= 30) ...[
+                  if (_qnController.numOfCorrectAns * 10 <= 40) ...[
                     Text(
                       'You act like a broken feeling gland because you hardly care about his feeling.',
                       style: Theme.of(context)
