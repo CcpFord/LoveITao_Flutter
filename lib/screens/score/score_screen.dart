@@ -59,6 +59,15 @@ class ScoreScreen extends StatelessWidget {
                           .copyWith(color: kSecondaryColor),
                     ),
                   ],
+                   if (_qnController.numOfCorrectAns * 10 < 30) ...[
+                    Text(
+                      'You act like a broken feeling gland because you hardly care about his feeling.',
+                      style: Theme.of(context)
+                          .textTheme
+                          .headline6
+                          .copyWith(color: kSecondaryColor),
+                    ),
+                  ],
                   Spacer(flex: 3),
                 ],
               ),

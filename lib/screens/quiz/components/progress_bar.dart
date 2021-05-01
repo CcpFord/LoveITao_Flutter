@@ -4,7 +4,6 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:quizapp/constants.dart';
 import 'package:quizapp/controllers/question_controller.dart';
 
-
 class ProgressBar extends StatelessWidget {
   const ProgressBar({
     Key key,

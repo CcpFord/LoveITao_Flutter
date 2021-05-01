@@ -35,7 +35,7 @@ class WelcomeScreen extends StatelessWidget {
                     height: 24,
                   ),
                   InkWell(
-                    onTap: () => Get.to(QuizScreen()),
+                    onTap: () => Get.to(() => QuizScreen()),
                     child: Container(
                       width: double.infinity,
                       alignment: Alignment.center,
@@ -57,7 +57,7 @@ class WelcomeScreen extends StatelessWidget {
                         ],
                       ),
                       child: Text(
-                        "Lets Start Quiz",
+                        "Let's Get Started",
                         style: Theme.of(context)
                             .textTheme
                             .button
