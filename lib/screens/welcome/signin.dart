@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-import 'package:quizapp/api/local_auth_api.dart';
+import 'package:quizapp/services/local_auth_api.dart';
 import 'package:quizapp/screens/welcome/signup.dart';
 import 'package:quizapp/screens/welcome/welcome_screen.dart';
-import 'package:quizapp/services/auth.dart';
+import 'package:quizapp/services/auth_firebase.dart';
 import 'package:quizapp/widgets/widgets.dart';
 import 'package:flutter_svg/svg.dart';
 

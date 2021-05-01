@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:quizapp/screens/welcome/signin.dart';
 import 'package:quizapp/screens/welcome/welcome_screen.dart';
-import 'package:quizapp/services/auth.dart';
+import 'package:quizapp/services/auth_firebase.dart';
 import 'package:quizapp/widgets/widgets.dart';
 
 class SignUp extends StatefulWidget {
