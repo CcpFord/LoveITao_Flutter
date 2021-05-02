@@ -43,7 +43,7 @@ class ScoreScreen extends StatelessWidget {
                   Spacer(),
                   if (_qnController.numOfCorrectAns * 10 >= 80) ...[
                     Text(
-                      'You do not care how many people are in the world you want him/her end of story',
+                      'You do not care how many people are in the world you want him/her end of story.',
                       style: Theme.of(context)
                           .textTheme
                           .headline6
@@ -53,7 +53,7 @@ class ScoreScreen extends StatelessWidget {
                   if (_qnController.numOfCorrectAns * 10 < 70 &&
                       _qnController.numOfCorrectAns * 10 >= 50) ...[
                     Text(
-                      'You are a good lover. If you are in a good mood, you are in a good mood but if the mood is not good, you can become a stubborn villain as well.',
+                      'You are a good lover. If you are in a good mood, you will take good care of your lover. But if the mood is not good, you can become a stubborn villain as well.',
                       style: Theme.of(context)
                           .textTheme
                           .headline6
