@@ -89,7 +89,7 @@ const List sample_data = [
     "options": [
       'Bored : I just feel like leaving as soon as possible',
       'Attentive: Interested in making sure he or she is comfortable and entertained.',
-      'Relaxed: Without a care in the world.",'
+      'Relaxed: Without a care in the world.,'
     ],
     "answer_index": 1,
   },
